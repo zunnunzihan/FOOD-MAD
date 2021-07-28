@@ -1,0 +1,132 @@
+body {
+  font-family: "Bree Serif", serif;
+  margin: 0px;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-content: center;
+}
+.nav-links {
+  text-align: center;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links a {
+  color: orangered;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.text-color {
+  color: orange;
+}
+h1 {
+  font-size: 5vw;
+}
+h2 {
+  font-size: 4vw;
+}
+p {
+  font-size: 1.5vw;
+}
+.first-section {
+  color: darkgray;
+  display: flex;
+  padding: 30px;
+}
+.first-header {
+  width: 100%;
+}
+.first-photo img {
+  width: 50vw;
+}
+.link-button {
+  margin-top: 50px;
+}
+.link-button a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(yellow, orange, orangered);
+  font-weight: 500px;
+  box-shadow: 2px 2px 15px orange;
+}
+.second-section {
+  display: flex;
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Bree Serif", serif;
+  font-family: "Itim", cursive;
+}
+.second-section h2 {
+  color: gray;
+  font-family: "Bree Serif", serif;
+  font-size: 3vw;
+}
+.second-photo img {
+  width: 50vw;
+}
+.second-header {
+  width: 50%;
+  padding: 20px;
+}
+.title {
+  text-align: center;
+  padding: 10px 150px;
+}
+.third-section h2 {
+  color: gray;
+  font-family: "Bree Serif", serif;
+  font-size: 3vw;
+}
+.container {
+  width: 100%;
+  display: flex;
+  margin: 20px;
+}
+.container h3 {
+  font-size: 2.5vw;
+}
+.recipie {
+  margin: 2%;
+  width: 33.33%;
+  padding: 2%;
+  box-shadow: 5px 5px 15px gray;
+  border-radius: 20px;
+}
+.recipie img {
+  width: 100%;
+}
+.recipie p {
+  width: 300px;
+}
+.social-likes {
+  display: flex;
+  box-shadow: 5px 5px 15px gray;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.social-media {
+  margin: 0px 35px;
+}
+.social {
+  margin: 0px 100px;
+  padding: 20px;
+}
+footer {
+  text-align: center;
+}
+.foot {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  margin-top: 50px;
+}
